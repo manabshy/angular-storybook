@@ -6,7 +6,7 @@ storiesOf('My Button', module)
   .add('with some emoji', () => ({
     component: ButtonComponent,
     props: {
-      text: '😀 😎 👍 💯',
+      text: 'This is Button Text',
     },
   }))
   .add('with some emoji and action', () => ({
