@@ -58,6 +58,7 @@ storiesOf('Welcome', module)
 
 
 storiesOf('My Button', module)
+  .addDecorator(withKnobs)
   .add('with some emoji', () => ({
     component: ButtonComponent,
     props: {
@@ -68,6 +69,9 @@ storiesOf('My Button', module)
     component: ButtonComponent,
     props: {
       text: 'My Button',
-      click: action('clicked'),
+      onClick: action('onClick fired')
     },
   }));
+  
+
+
