@@ -9,6 +9,6 @@
     "src/test.ts",
     "**/*.spec.ts",
     "**/*.stories.ts",
-    "stories/index.ts",
+    "stories/index.ts"
   ]
 }
