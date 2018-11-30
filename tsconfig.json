@@ -22,7 +22,11 @@
       ],
       "ui-kit/*": [
         "dist/ui-kit/*"
+      ],
+      "exclude": [
+        "wallabyTest.js"
       ]
+    
     }
   }
 }
